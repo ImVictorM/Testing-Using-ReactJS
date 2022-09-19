@@ -2,7 +2,7 @@ import { screen } from '@testing-library/react';
 import NotFound from '../pages/NotFound';
 import renderWithRouter from '../renderWithRouter';
 
-describe('Testa o componente App.js ', () => {
+describe('Testa o componente NotFound.js ', () => {
   it('Contém titulo com o texto "Page requested not found"', () => {
     renderWithRouter(<NotFound />);
     const notFoundTitle = screen.getByRole('heading', {
