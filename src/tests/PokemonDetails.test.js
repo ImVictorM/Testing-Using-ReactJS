@@ -68,7 +68,7 @@ describe('Testa o componente PokemonDetails.js ', () => {
     expect(screen.getByText(/kanto power plant/i)).toBeInTheDocument();
   });
 
-  it('', () => {
+  it('O usuário pode favoritar um pokémon através da página de detalhes', () => {
     renderWithRouter(
       <App />,
     );
