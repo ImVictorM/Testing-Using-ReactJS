@@ -25,7 +25,7 @@ describe('Testa o componente Pokemon.js ', () => {
     expect(pokemonType).toHaveTextContent(/electric/i);
     expect(pokemonWeight).toHaveTextContent(/Average weight: 6.0 kg/i);
     expect(pokemonImg).toBeInTheDocument();
-    expect(pokemonImg.src).toBe('https://cdn2.bulbagarden.net/upload/b/b2/Spr_5b_025_m.png');
+    expect(pokemonImg).toHaveAttribute('src', 'https://cdn2.bulbagarden.net/upload/b/b2/Spr_5b_025_m.png');
   });
 
   it('Testa o link de detalhes do pokemon', () => {

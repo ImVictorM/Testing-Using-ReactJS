@@ -18,7 +18,8 @@ describe('Testa o componente NotFound.js ', () => {
       name: /Pikachu crying because the page requested was not found/i,
     });
     expect(notFoundImg).toBeInTheDocument();
-    expect(notFoundImg.src).toBe(
+    expect(notFoundImg).toHaveAttribute(
+      'src',
       'https://media.giphy.com/media/kNSeTs31XBZ3G/giphy.gif',
     );
   });
