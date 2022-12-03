@@ -61,4 +61,13 @@ npm install
 ```
 npm start
 ```
+## Testing 🛠️
+Running all tests:
+```
+npm test
+```
+Running a specific test:
+```
+npm test {test_file_name}
+```
 
