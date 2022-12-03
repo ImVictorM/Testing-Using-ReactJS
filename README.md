@@ -1,13 +1,64 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+# Testing-Using-ReactJS :construction:
+## Project Context 💡
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+In this project, I had to write tests for a React application that was already created and configured using Jest and React Testing Library (RTL).
+The application contains a complete implementation of a Pokédex. My job was to write tests that ensured their correctness. The tests are in path `src/tests`.
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+### Acquired Knowledge 📖
+In this project, i was able to:
+
+- Use React-Testing-Library selectors (queries) in automated tests;
+- Simulate events with React-Testing-Library in automated tests;
+- Testing asynchronous logic flows with the React-Testing-Library;
+- Write tests that cause the structure of application components to be refactored without having to change them;
+- Inputs Test.
+
+## Used Technologies 🧰
+<table>
+    <thead>
+        <tr>
+            <th>Jest</th>
+            <th>RTL</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td align="center">
+                <a href="https://jestjs.io" target="_blank" rel="noreferrer"> 
+                    <img 
+                        src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" 
+                        alt="jest" 
+                        width="40" 
+                        height="40"
+                     /> 
+                </a>
+            </td>
+            <td align="center">
+                <a href="https://testing-library.com/docs/" target="_blank" rel="noreferrer">
+                    <img 
+                        src="https://testing-library.com/img/octopus-128x128.png"
+                        alt="rtl"
+                        width="40"
+                        height="40"
+                    />
+                </a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+## Running the application ⚙️
+
+1. Clone and enter this repository
+```
+git clone git@github.com:ImVictorM/Testing-Using-ReactJS.git && cd Testing-Using-ReactJS
+```
+2. Install the dependencies
+```
+npm install 
+```
+3. Start the project
+```
+npm start
+```
+
